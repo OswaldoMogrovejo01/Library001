@@ -13,6 +13,12 @@ public class Libro {
 		public Libro() {
 			// TODO Auto-generated constructor stub
 		}
+		
+		@Override
+		public String toString() {
+			// TODO Auto-generated method stub
+			return this.isbn + " <> " + this.titulo + " <> " + this.cantidad + " <> $" + this.precio;
+		} 
 		public String getIsbn() {
 			return isbn;
 		}
@@ -42,11 +48,6 @@ public class Libro {
 			// TODO Auto-generated method stub
 			Libro l = (Libro)obj;
 			return this.isbn.equals(l.isbn);
-		}
-		@Override
-		public String toString() {
-			// TODO Auto-generated method stub
-			return this.isbn + " <> " + this.titulo + " <> " + this.cantidad + " <> $" + this.precio;
 		}
 	}
 
