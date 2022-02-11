@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-
+      
 public class Main {
 	private static ArrayList<Libro> libros = new ArrayList<Libro>();
 	private static ArrayList<Libro> librosAltos = new ArrayList<Libro>();
@@ -67,7 +67,7 @@ public class Main {
 	public static void insertarLibros() {
 		ArrayList<Libro> libros = ListaTemporal();
         Libro nuevolibro = new Libro();
-		System.out.println("Digite el código del libro:\n");
+		System.out.println("Digite el cï¿½digo del libro:\n");
 		leer.nextLine();
 		
         nuevolibro.setIsbn(leer.nextLine());
