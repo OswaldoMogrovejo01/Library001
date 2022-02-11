@@ -11,7 +11,7 @@ public class Main1 {
 		System.out.println("<1> INGRESAR LIBRO\n"+"<2> BUSCAR LIBRO POR ISNB\n"+
 		"<3> VENTA DE LIBRO\n"+"<4> MOSTRAR LOS TRES LIBROS MAS CAROS\n"+
 		"<5> MOSTRAR TODOS LOS LIBROS\n"+"<6> SALIR DEL MENU");
-		menu();
+		//menu();
 	}
 
 }
